@@ -27,7 +27,7 @@ class WeatherApp(QMainWindow):
         self.ui.weather_icon.clear()
         city = self.ui.city_lineEdit.text()
 
-        api_key = "d8869c11c36faf6531e8382dec36e9ff"
+        api_key = "YOUR-API-KEY"
 
         url = "https://api.openweathermap.org/data/2.5/weather"
 
